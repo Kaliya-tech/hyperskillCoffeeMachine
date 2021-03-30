@@ -1,0 +1,48 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static long power(int n, int m) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final int n = scanner.nextInt();
+            final int m = scanner.nextInt();
+            System.out.println(power(n, m));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10993#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:6: error: '.class' expected
+            double n = int n;
+                           ^
+    Main.java:7: error: '.class' expected
+            double m = int m
+                           ^
+    Main.java:7: error: ';' expected
+            double m = int m
+                            ^
+    Main.java:8: error: '.class' expected
+            double result = Math.pow(double n, double m)
+                                            ^
+    Main.java:8: error: ';' expected
+            double result = Math.pow(double n, double m)
+                                             ^
+    Main.java:8: error: ';' expected
+            double result = Math.pow(double n, double m)
+                                                       ^
+    6 errors
+  time: Tue, 30 Mar 2021 09:00:50 UTC
+record: -1
