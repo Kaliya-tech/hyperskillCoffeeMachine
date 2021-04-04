@@ -285,5 +285,8 @@ files:
     Or is there a mistake?
   learner_created: true
 feedback_link: https://hyperskill.org/projects/33/stages/180/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 01 Apr 2021 15:41:15 UTC
 record: -1

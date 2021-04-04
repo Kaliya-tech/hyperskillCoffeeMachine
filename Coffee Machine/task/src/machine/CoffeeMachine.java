@@ -17,7 +17,7 @@ public class CoffeeMachine {
     private static void interact(Scanner scanner) {
         System.out.println("Write action (buy, fill, take, remaining, exit): ");
         String query = scanner.nextLine();
-        System.out.println();
+ut
         switch (query) {
             case "remaining":
                 remaining(scanner);
